@@ -1,5 +1,5 @@
 ---
-# @var role_dcc_greylist_ids: 2.3.167 # Version to be installed. You can find the latest version on the website https://dcc-servers.net
+# @var role_dcc_version: 2.3.167 # Version to be installed. You can find the latest version on the website https://dcc-servers.net
 role_dcc_version: 2.3.167
 # @var role_dcc_reinstall: no # Force reinstallation proccess
 role_dcc_reinstall: no
@@ -9,9 +9,9 @@ role_dcc_reinstall: no
 role_dcc_user: dcc
 # @var role_dcc_group: dcc # Group under which the program should run
 role_dcc_group: dcc
-# @var role_dcc_group: /var/dcc # Path where you can find the executables after installation
+# @var role_dcc_path: /var/dcc # Path where you can find the executables after installation
 role_dcc_path: /var/dcc
-# @var role_dcc_group: /opt/dcc_install # Path where the (unpacked) Archive are stored.
+# @var role_dcc_install_path: /opt/dcc_install # Path where the (unpacked) Archive are stored.
 role_dcc_install_path: /opt/dcc_install
 
 # @var role_dcc_bind_ip: 127.0.0.1 # Binded IP-Adress
